@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Amedentix</string>
+    <string name="acceder_txt">Log in</string>
+    <string name="email_txt">Email</string>
+    <string name="password_txt">Password</string>
+    <string name="unirme_txt">Register</string>
+    <string name="name_txt">Full name</string>
+    <string name="password_confirm_txt">Confirm Password</string>
+    <string name="email_error_txt">The email is not a valid email address</string>
+    <string name="passw_error_txt">The passwords doesn\'t match</string>
+    <string name="passw_conf_null_txt">The password confirmation field is madatory</string>
+    <string name="passw_null_txt">The password field is mandatory</string>
+    <string name="name_null_txt">The name field is mandatory</string>
+    <string name="email_null_txt">The email field is mandatory</string>
+    <string name="action_settings">Configuraciones</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_send">Send</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="nav_header_desc">Barra de navegación</string>
+    <string name="nav_header_subtitle">Making more confortable dentist experience</string>
+    <string name="nav_header_title">Amedentix</string>
+    <string name="navigation_drawer_close">Close drawer</string>
+    <string name="navigation_drawer_open">Open drawer</string>
+    <string name="title_activity_history">History</string>
+    <string name="logout">Log Out</string>
+    <string name="history">History</string>
+    <string name="doctor">Doctor</string>
+    <string name="hello_blank_fragment">Hello</string>
+    <string name="patient">Patient</string>
+    <string name="patient_ask">Or are you a patient?</string>
+    <string name="doctor_ask">Are you a doctor?</string>
+    <string name="title_activity_home">Histories</string>
+    <string name="like">Like</string>
+</resources>

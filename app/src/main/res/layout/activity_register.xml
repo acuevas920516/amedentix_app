@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base"
+    tools:context=".activities.Register">
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="391dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:autofillHints="@string/name_txt"
+            android:ems="10"
+            android:hint="@string/name_txt"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:autofillHints="@string/email_txt"
+            android:ems="10"
+            android:hint="@string/email_txt"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/passw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="20dp"
+            android:autofillHints="@string/password_txt"
+            android:ems="10"
+            android:hint="@string/password_txt"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/passw_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="20dp"
+            android:autofillHints="@string/password_confirm_txt"
+            android:ems="10"
+            android:hint="@string/password_confirm_txt"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/acceder"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:onClick="ExecuteRegister"
+            android:backgroundTint="#007AFF"
+            android:text="@string/unirme_txt" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Amedentix</string>
+    <string name="unirme_txt">Unirme</string>
+    <string name="acceder_txt">Acceder</string>
+    <string name="email_txt">Email</string>
+    <string name="password_txt">Password</string>
+    <string name="password_confirm_txt">Repita el password</string>
+    <string name="name_txt">Nombre y Apellidos</string>
+    <string name="name_null_txt">El nombre es obligatorio</string>
+    <string name="email_null_txt">El email es obligatorio</string>
+    <string name="passw_null_txt">El password es obligatorio</string>
+    <string name="passw_conf_null_txt">La confirmación del password es obligatoria</string>
+    <string name="passw_error_txt">Los passwords no coinciden</string>
+    <string name="email_error_txt">Inserte un email válido</string>
+    <string name="title_activity_history">Historia</string>
+    <string name="doctor">Doctor</string>
+    <string name="patient">Paciente</string>
+    <string name="doctor_ask">Es usted un doctor?</string>
+    <string name="patient_ask">O es un paciente?</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_home">Historias</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="history">Historia</string>
+    <string name="logout">Salir</string>
+    <string name="like">Me Gusta</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>
